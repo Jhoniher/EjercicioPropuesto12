@@ -1,20 +1,20 @@
-/*
- * Click nbfs://nbhost/SystemFileSystem/Templates/Licenses/license-default.txt to change this license
- * Click nbfs://nbhost/SystemFileSystem/Templates/Classes/Main.java to edit this template
- */
+
 package ejerciciopropuesto12;
 
-/**
- *
- * @author Jhony
- */
+import java.util.Scanner;
 public class EjercicioPropuesto12 {
-
-    /**
-     * @param args the command line arguments
-     */
+    
     public static void main(String[] args) {
-        // TODO code application logic here
+        
+        Scanner entrada=new Scanner(System.in);
+        double horas_trabajadas, precio_hora, porcentaje_retencion;
+        System.out.println("Ingrese cantidad de horas trabajadas por el empleado: ");
+        horas_trabajadas=entrada.nextDouble();
+        System.out.println("Ingrese el precio a pagar por hora de trabajo: ");
+        precio_hora=entrada.nextDouble();
+        System.out.println("Ingrese el porcentaje de retencion en la fuente: ");
+        porcentaje_retencion=entrada.nextDouble();
+        
     }
     
 }
